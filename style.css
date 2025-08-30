@@ -1,0 +1,72 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #4d4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs input, .inputs button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Countdown Boxes */
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.countdown div {
+  margin: 0 10px;
+  background: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 70px;
+}
+
+.countdown span {
+  font-size: 2em;
+  display: block;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: red;
+}
